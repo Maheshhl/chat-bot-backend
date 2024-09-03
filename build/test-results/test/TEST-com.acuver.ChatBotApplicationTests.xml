@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.acuver.ChatBotApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-30T14:57:53" hostname="DESKTOP-UN8O862" time="1.942">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.acuver.ChatBotApplicationTests" time="1.942"/>
+  <system-out><![CDATA[20:27:50.599 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.acuver.ChatBotApplicationTests]: ChatBotApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:27:50.791 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.acuver.ChatBotApplication for test class com.acuver.ChatBotApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-08-30T20:27:51.565+05:30  WARN 105884 --- [chat-bot] [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/org.json/json/20231013/e22e0c040fe16f04ffdb85d851d77b07fc05ea52/json-20231013.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-08-30T20:27:51.592+05:30  INFO 105884 --- [chat-bot] [    Test worker] com.acuver.ChatBotApplicationTests       : Starting ChatBotApplicationTests using Java 17.0.10 with PID 105884 (started by Admin in C:\Users\Admin\Downloads\chat-bot\chat-bot)
+2024-08-30T20:27:51.594+05:30  INFO 105884 --- [chat-bot] [    Test worker] com.acuver.ChatBotApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-08-30T20:27:53.929+05:30  INFO 105884 --- [chat-bot] [    Test worker] com.acuver.ChatBotApplicationTests       : Started ChatBotApplicationTests in 2.803 seconds (process running for 5.755)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
